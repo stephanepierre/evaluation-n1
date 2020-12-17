@@ -1,8 +1,8 @@
 header, footer {
   color: rgb(250, 11, 11);
-  line-height: 100px;
   font-weight: bold;
 }
+
 body {
   background: rgb(150, 148, 148);
   text-align: justify;
@@ -10,8 +10,23 @@ body {
   color: white;
 }
 
-.title, h1 {
-  
+.title, h1, h2 {
   font-family: 'chiller', cursive;
   font-size: 5em;
+  text-align: center;
+
+}
+
+.copyright {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgb(250, 11, 11);
+}
+
+.logoHeader {
+  vertical-align: sub;
+}
+
+footer {
+  line-height: 100px;
 }

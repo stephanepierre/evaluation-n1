@@ -4,19 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>partenaires</title>
-  <link id="partenaires">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
-  rel="stylesheet" 
-  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+  integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
   crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+  <link id="partenaires">
 </head>
-<body>
+
+<body class="p-2">
+
   <!--title-->
-  <header class="row no-gutters text-center">
+  <header class="row no-gutters">
     <!--add logo-->
-    <div class="col-1">OVTP</div> 
-    <div class="title col-11">OnVaToutPeter</div>
+    <div class="title col-12">
+      <img src="./media/logo1.jpg" width="90" height="70" class=" logoHeader d-inline-block">
+      OnVaToutPeter </div>
   </header>
   
   <!--navigation-->
@@ -36,32 +39,138 @@
         <div class="collapse navbar-collapse text-white" id="navbarNav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="./index.html" >Accueil</a>
+              <a class="nav-link" href="./index.html">Accueil</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#"tabindex="-1" aria-disabled="true">Partenaires</a>
+            <li class="nav-item ">
+              <a class="nav-link active" href="#">Partenaires</a>
             </li>
           </ul>
+        </div>
       </nav>
     </div>
   </div>
-  <main> <!--include 4 partenaires-->
+
+  <main>
+    <!--add partners-->
+    <div class="col-12">
+      <div class="row no-gutters align-items-center">
+
+        <div class="col-md-4 mt-3 mb-3">
+          <img src="./media/rock à gogo magasin.jpg" class="card-img" alt="store">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Rock à GOGO</h5>
+            <p class="card-text">Si vous cherchez des fringues, des goodies et les objects les plus 
+              Hard-rock, vous les trouverez ici chez notre partenaire Rock à GOGO !!!
+            </p>
+            <a class="btn btn-dark" 
+            href="https://www.rockagogo.com/"
+            target="_blank">
+              Cliquez ici
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <img src="./media/sonovente.jpg" class="card-img" alt="guitare-store">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Sonovente.com</h5>
+            <p class="card-text">Chez notre partenaire Sonovente.com, vous trouverez les instruments
+              les plus perfectionnés, les plus trash pour vous éclatez et faire votre propre son !!!
+            </p>
+            <a class="btn btn-dark" 
+            href="https://www.sonovente.com/"
+            target="_blank">
+              Cliquez ici
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <img src="./media/forum guitare.jpg" class="card-img" alt="forum">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Forum-guitare</h5>
+            <p class="card-text">Vous vous posez des questions sur les guitares? vous voulez 
+              trouvez des fondus comme vous de la guitare? Tout ce que vous voulez savoir est sur ce 
+              forum. Conseils, astuces, mis en relation et bien d'autres choses encore...
+            </p>
+            <a class="btn btn-dark" 
+            href="https://www.forum-guitare.fr/"
+            target="_blank">
+              Cliquez ici
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <img src="./media/festival alcatraz.jpg" class="card-img" alt="festival">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">"LE" festival</h5>
+            <p class="card-text">Oui oui, on a bien dit "LE" festival, celui qu'il ne faut pas manquer
+              celui qui va vous éclater et vous faire regretter de ne pas y avoir été plus tôt, celui 
+              qui va vous emprisonner et vous retenir à jamais... le festival ALCATRAZ !!!! 
+              <br>
+              <br>
+              Attention âmes sensibles s'abstenir, la Belgique va vous mettre le feu à ce festival.
+
+            </p>
+            <a class="btn btn-dark" 
+            href="https://www.alcatraz.be/fr/index"
+            target="_blank">
+              Cliquez ici
+            </a>
+          </div> 
+        </div>
+      </div>
+    </div>
 
   </main>
-
+    
   <!--footer with "tous droits réservés" and logo-->
   <footer class="row no-gutters text-center border-top border-dark">
-    <div class="col-6">OVTP</div>
-    <div class="contact col-6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
-      class="bi bi-mailbox" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" 
-      d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 
-      1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
-      <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 
-      1-.354-.146l-.853-.854z"/>
-      <path d="M5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
-    </svg> Contact</div>
+    <div class="col-6">
+      <a class="copyright">
+        &copy
+      </a>
+      <img src="./media/logo1.jpg" width="80" height="65" class="d-inline-block">
+    </div>
+    <div class="col-6">
+      <a class="copyright" href="mailto: exemple.exercice@gmail.com">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-mailbox" 
+        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 
+          1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 
+          7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
+          <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 
+          1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854z"/>
+          <path d="M5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
+        </svg>
+        Contact
+      </a>
+    </div>
   </footer>
-  
+
+  <noscript>
+    <p>Merci d'activer Javascript afin de pouvoir bénéficier de toutes les 
+      fonctionnalités de ce site</p>
+  </noscript>
+  <script src="./liens/fichier.js"
+  <script 
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
+  crossorigin="anonymous">
+  </script>
+
 </body>
 </html>

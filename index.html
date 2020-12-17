@@ -6,9 +6,9 @@
   <title>voici le site web de l'association OnVaToutPeter, OVTP notre association regroupe les 
     amateurs de musique hard rock, trash métal, tout le monde est le bienvenu
   </title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
-  rel="stylesheet" 
-  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+  integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
   crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
   
@@ -16,10 +16,11 @@
 <body>
 
   <!--title-->
-  <header class="row no-gutters text-center">
+  <header class="row no-gutters">
     <!--add logo-->
-    <div class="col-1">OVTP</div> 
-    <div class="title col-11">OnVaToutPeter</div>
+    <div class="col-12 title">
+      <img src="./media/logo1.jpg" width="90" height="70" class=" logoHeader d-inline-block">
+      OnVaToutPeter </div>
   </header>
   
   <!--navigation-->
@@ -39,20 +40,20 @@
         <div class="collapse navbar-collapse text-white" id="navbarNav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Accueil</a>
+              <a class="nav-link active" href="#">Accueil</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./partenaires.html">Partenaires</a>
+            <li class="nav-item ">
+              <a class="nav-link" href="./partenaires.html">Partenaires</a>
             </li>
           </ul>
+        </div>
       </nav>
     </div>
   </div>
-
-  <!--content-->
+    <!--content-->
   <main>
 
-    <H1 class="text-center">Bienvenue !!</H1>
+    <H1>Bienvenue !!</H1>
 
     <!--explications with 1 picture-->
     <div class="row no-gutters m-4 justify-content-center ">
@@ -75,27 +76,31 @@
             <div class="col-12 pt-2 pr-4">
               <div class="col-12" style="text-align: center;">
                 <img src="./media/heavy2.jpg" class="w-100">
-              <div>En prime vous trouverez un bas de page une vidéo qui fait sensation en ce moment dans 
-                notre association. Vous avez la possibilité de nous envoyer un mail avec des propositions
-                de vidéos en rapport avec notre page. Chaque mois nous ferons un choix dans ces propositions 
-                et nous mettrons la vidéo sur notre site, alors... A vos claviers !!!!</div>
+              <div>En prime vous trouverez un bas de page une vidéo qui fait sensation en ce moment 
+                dans notre association. Vous avez la possibilité de nous envoyer un mail avec des 
+                propositions de vidéos en rapport avec notre page. Chaque mois nous ferons un choix 
+                parmis ces demandes et nous mettrons la vidéo sur notre site, alors... 
+                A vos claviers !!!!</div>
         </article>
       </section>
     </div>
 
     <!--explications with link to second page-->
-    <article class="col-12 p-4">
+    <article class="col-12 p-4 text-center">
       <div>Sur notre deuxième page vous trouverez les liens vers nos<a href="./partenaires.html" 
         class="text-decoration-none"> 
       partenaires</a> qui pourrons vous proposez tout ce qu'il vous faut pour vous éclater. Annoncez 
-      leurs que vous venez de notre part avec le code <mark>JAMBON</mark> et vous aurez droit à une réduction !
+      leurs que vous venez de notre part avec le code <mark>JAMBON</mark> et vous aurez droit à une 
+      réduction !
       </div>
     </article>
 
-    <div class="row no-gutters m-4 justify-content-center ">
-      <section class="col-12 col-md-5 border border-dark shadow p-3 mb-5 bg-rgb(150, 148, 148) rounded"> 
+    <h2>Voici la vidéo du mois, à vos votes !!!</h2>
+
+    <div class="row no-gutters m-4 justify-content-center">
+      <section class="col-12 col-lg-8 border border-dark shadow p-3 mb-5 bg-rgb(150, 148, 148) rounded"> 
         <div class="col-12" style="text-align: center;">
-          <iframe height="300" class="w-100" src="https://www.youtube.com/embed/IaJ2UHiTa0o" 
+          <iframe height="500" class="w-100" src="https://www.youtube.com/embed/IaJ2UHiTa0o" 
           frameborder="0" 
           allow="accelerometer; muted; autoplay; clipboard-write; encrypted-media; gyroscope; 
           picture-in-picture" 
@@ -112,16 +117,42 @@
 
   <!--footer with "tous droits réservés" and logo-->
   <footer class="row no-gutters text-center border-top border-dark">
-    <div class="col-6">OVTP</div>
-    <div class="contact col-6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
-      class="bi bi-mailbox" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" 
-      d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 
-      1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
-      <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 
-      1-.354-.146l-.853-.854z"/>
-      <path d="M5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
-    </svg> Contact</div>
+    <div class="col-6">
+      <a class="copyright">
+        &copy
+      </a>
+      <img src="./media/logo1.jpg" width="80" height="65" class="d-inline-block">
+    </div>
+    <div class="col-6">
+      <a class="copyright" href="mailto: exemple.exercice@gmail.com">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-mailbox" 
+        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 
+          1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 
+          7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
+          <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 
+          1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854z"/>
+          <path d="M5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
+        </svg>
+        Contact
+      </a>
+    </div>
   </footer>
+
+  <noscript>
+    <p>Merci d'activer Javascript afin de pouvoir bénéficier de toutes les 
+      fonctionnalités de ce site</p>
+  </noscript>
+  <script src="./liens/fichier.js"
+  <script 
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
+  crossorigin="anonymous">
+  </script>
+  
 </body>
 </html>
