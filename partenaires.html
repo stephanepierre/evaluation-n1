@@ -13,15 +13,16 @@
 </head>
 <body>
   <!--title-->
-  <header>
+  <header class="row no-gutters text-center">
     <!--add logo-->
-    <div>OVTP</div> 
-    <h1>OnVaToutPeter</h1>
+    <div class="col-1">OVTP</div> 
+    <div class="title col-11">OnVaToutPeter</div>
   </header>
   
+  <!--navigation-->
   <div class="row no-gutters mr-2 ml-2">
     <div class="col-12"> 
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand m-auto" href="NavigationBar"></a>
         <button class="navbar-toggler" 
         type="button" 
@@ -38,7 +39,7 @@
               <a class="nav-link active" href="./index.html" >Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Partenaires</a>
+              <a class="nav-link disabled" href="#"tabindex="-1" aria-disabled="true">Partenaires</a>
             </li>
           </ul>
       </nav>
@@ -49,11 +50,15 @@
   </main>
 
   <!--footer with "tous droits réservés" and logo-->
-  <footer>
-    <div>OVTP</div>
-    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mailbox" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
-      <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854z"/>
+  <footer class="row no-gutters text-center border-top border-dark">
+    <div class="col-6">OVTP</div>
+    <div class="contact col-6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+      class="bi bi-mailbox" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" 
+      d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 
+      1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
+      <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 
+      1-.354-.146l-.853-.854z"/>
       <path d="M5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
     </svg> Contact</div>
   </footer>

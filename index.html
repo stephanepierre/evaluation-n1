@@ -16,16 +16,16 @@
 <body>
 
   <!--title-->
-  <header>
+  <header class="row no-gutters text-center">
     <!--add logo-->
-    <div>OVTP</div> 
-    <h1>OnVaToutPeter</h1>
+    <div class="col-1">OVTP</div> 
+    <div class="title col-11">OnVaToutPeter</div>
   </header>
   
   <!--navigation-->
   <div class="row no-gutters mr-2 ml-2">
     <div class="col-12"> 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand m-auto" href="NavigationBar"></a>
         <button class="navbar-toggler" 
         type="button" 
@@ -52,47 +52,74 @@
   <!--content-->
   <main>
 
-    <!--explications with 1 picture-->
-    <article>
-      <H2>Bienvenue !!</H2>
-      <img src="./media/heavy1.jpg">
-      <div>Vous êtes sur la page de l'association OVTP, OnVaToutPeter. Elle a pour vocation de 
-        réunir les fans de musique Hard-rock, Heavy-metal et toutes les musiques qui envoient du 
-        lourd !!</div>
-    </article>
+    <H1 class="text-center">Bienvenue !!</H1>
 
     <!--explications with 1 picture-->
-    <article>
-      <img src="./media/heavy2.jpg">
-      <div>En prime vous trouverez un bas de page une vidéo qui fait sensation en ce moment dans 
-        notre association. Vous avez la possibilité de nous envoyer un mail avec des propositions
-        de vidéos en rapport avec notre page. Chaque mois nous ferons un choix dans ces propositions 
-        et nous mettrons la vidéo sur notre site, alors... A vos claviers !!!!</div>
-    </article>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/IaJ2UHiTa0o" 
-    frameborder="0" 
-    allow="accelerometer; muted; autoplay; clipboard-write; encrypted-media; gyroscope; 
-    picture-in-picture" 
-    allowfullscreen>
-    <p>Votre navigateur ne prend pas en charge les vidéos HTML5.</p>
-    </iframe>
+    <div class="row no-gutters m-4 justify-content-center ">
+      <section class="col-12 col-md-5 border border-dark shadow p-3 mb-5 bg-rgb(150, 148, 148) rounded"> 
+        <article class="text-justify p-2">
+          <div class="col-12" style="text-align: center;">
+            <img src="./media/heavy1.jpg" class="w-100">
+          </div>
+          <div>Vous êtes sur la page de l'association OVTP, OnVaToutPeter. Elle a pour vocation de 
+            réunir les fans de musique Hard-rock, Heavy-metal et toutes les musiques qui envoient du 
+            lourd !!</div>
+        </article>
+      </section>
+
+      <section class="col-12 col-md-1" style="min-height: 20px;"></section>
+
+    <!--explications with 1 picture-->
+      <section class="col-12 col-md-5 border border-dark shadow p-3 mb-5 bg-rgb(150, 148, 148) rounded">
+        <article class="text-justify p-2">
+            <div class="col-12 pt-2 pr-4">
+              <div class="col-12" style="text-align: center;">
+                <img src="./media/heavy2.jpg" class="w-100">
+              <div>En prime vous trouverez un bas de page une vidéo qui fait sensation en ce moment dans 
+                notre association. Vous avez la possibilité de nous envoyer un mail avec des propositions
+                de vidéos en rapport avec notre page. Chaque mois nous ferons un choix dans ces propositions 
+                et nous mettrons la vidéo sur notre site, alors... A vos claviers !!!!</div>
+        </article>
+      </section>
+    </div>
 
     <!--explications with link to second page-->
-    <article>
-      <div>Sur notre deuxième page vous trouverez les liens vers nos<a href="./partenaires.html"> 
+    <article class="col-12 p-4">
+      <div>Sur notre deuxième page vous trouverez les liens vers nos<a href="./partenaires.html" 
+        class="text-decoration-none"> 
       partenaires</a> qui pourrons vous proposez tout ce qu'il vous faut pour vous éclater. Annoncez 
-      leurs que vous venez de notre part avec le code JAMBON et vous aurez droit à une réduction !
+      leurs que vous venez de notre part avec le code <mark>JAMBON</mark> et vous aurez droit à une réduction !
       </div>
     </article>
+
+    <div class="row no-gutters m-4 justify-content-center ">
+      <section class="col-12 col-md-5 border border-dark shadow p-3 mb-5 bg-rgb(150, 148, 148) rounded"> 
+        <div class="col-12" style="text-align: center;">
+          <iframe height="300" class="w-100" src="https://www.youtube.com/embed/IaJ2UHiTa0o" 
+          frameborder="0" 
+          allow="accelerometer; muted; autoplay; clipboard-write; encrypted-media; gyroscope; 
+          picture-in-picture" 
+          allowfullscreen>
+          <p>Votre navigateur ne prend pas en charge les vidéos HTML5.</p>
+          </iframe>
+        </div>
+      </section>
+    </div>
+
+    
 
   </main>
 
   <!--footer with "tous droits réservés" and logo-->
-  <footer>
-    <div>OVTP</div>
-    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mailbox" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
-      <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854z"/>
+  <footer class="row no-gutters text-center border-top border-dark">
+    <div class="col-6">OVTP</div>
+    <div class="contact col-6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+      class="bi bi-mailbox" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" 
+      d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 
+      1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
+      <path fill-rule="evenodd" d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 
+      1-.354-.146l-.853-.854z"/>
       <path d="M5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
     </svg> Contact</div>
   </footer>
